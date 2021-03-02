@@ -34,7 +34,7 @@
                     <form action="." method="POST">
                         <input type="hidden" name="action" value="delete_item">
                         <input type="hidden" name="item_id" value="<?= $item['ItemNum'] ?>">
-                        <button class="remove_button">X</button>
+                        <button class="remove_button">Delete</button>
                     </form>
                 </div>
             </div>

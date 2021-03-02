@@ -16,7 +16,7 @@
                     <form action="." method="POST">
                         <input type="hidden" name="action" value="delete_category">
                         <input type="hidden" name="category_id" value="<?= $category['categoryID'] ?>">
-                        <button class="remove-button">X</button>
+                        <button class="remove-button">Delete</button>
                     </form>
                 </div>
             </div>

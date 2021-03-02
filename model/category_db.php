@@ -34,7 +34,7 @@
         $query =   'DELETE FROM categories
                     WHERE categoryID = :category_id';
         $statement = $db->prepare($query);
-        $statement->bindValue(':categoryID', $category_id);
+        $statement->bindValue(':category_id', $category_id);
         $statement->execute();
         $statement->closeCursor();
     }
